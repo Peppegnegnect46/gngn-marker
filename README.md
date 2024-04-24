@@ -35,6 +35,7 @@ Ricorda di modificare anche gli altri script che richiedono l'utilizzo dei marke
 local marker = lib.requestStreamedTextureDict("peppegnegnect46",) -- "peppegnegnect46" lo dovete sostituire con il nome del vostro file .ytd per i marker
 
 DrawMarker(9, point.coords.x, point.coords.y, point.coords.z, 0.0, 0.0, 0.0, 90.0, 0.0, 0.0, 0.3, 0.2, 0.15, 30, 150, 30, 222, false, false, 0, true, marker, "peppegnegnect46", false) -- "peppegnegnect46" lo dovete sostituire con la texture che volete usare
+```
 
 Tutorial cambio file ytd : https://youtu.be/hmGUcNcIOfk
 
@@ -77,5 +78,7 @@ Remember to also modify other scripts that require the use of markers to use the
 local marker = lib.requestStreamedTextureDict("your-marker",) -- Replace "your-marker" with the name of your .ytd file for the markers
 
 DrawMarker(9, point.coords.x, point.coords.y, point.coords.z, 0.0, 0.0, 0.0, 90.0, 0.0, 0.0, 0.3, 0.2, 0.15, 30, 150, 30, 222, false, false, 0, true, marker, "your-marker", false) -- Replace "your-marker" with the texture you want to use
+
+```lua
 
 Tutorial change file ytd: https://youtu.be/hmGUcNcIOfk
