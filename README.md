@@ -79,6 +79,6 @@ local marker = lib.requestStreamedTextureDict("your-marker",) -- Replace "your-m
 
 DrawMarker(9, point.coords.x, point.coords.y, point.coords.z, 0.0, 0.0, 0.0, 90.0, 0.0, 0.0, 0.3, 0.2, 0.15, 30, 150, 30, 222, false, false, 0, true, marker, "your-marker", false) -- Replace "your-marker" with the texture you want to use
 
-```lua
+```
 
 Tutorial change file ytd: https://youtu.be/hmGUcNcIOfk
